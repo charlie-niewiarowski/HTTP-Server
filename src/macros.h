@@ -3,7 +3,8 @@
 
 #define PORT 8080
 #define BUFFERSIZE 100
-
-
+#define MAX_HEADER_KEY_SIZE 256
+#define MAX_HEADER_VAL_SIZE 1024
+#define MAX_HEADERS 100
 
 #endif
