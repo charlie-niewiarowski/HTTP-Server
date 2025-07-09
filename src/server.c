@@ -1,6 +1,5 @@
 #include "server.h"
 
-
 void send_error_response(int client_fd, int code, const char* message) {
     char buffer[256];
     snprintf(buffer, sizeof(buffer),
